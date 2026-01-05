@@ -6,7 +6,7 @@
 - Experience in application development and web sites
 - Interest in scalable projects and best practices
 - Continuous learning and collaborative work
-
+  
 ## 🛠️ Technology
 - Languages: Java, Python, JavaScript, PHP
 - Frameworks: Laravel
