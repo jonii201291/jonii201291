@@ -1,16 +1,21 @@
-## Hi there 👋
+# 👋 Hello, I am Jonatan Gamino
 
-<!--
-**jonii201291/jonii201291** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+💻 Full Stack Junior deveoper
 
-Here are some ideas to get you started:
+## 🧠 About me
+- Experience in application development and web sites
+- Interest in scalable projects and best practices
+- Continuous learning and collaborative work
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🛠️ Technology
+- Languages: Java, Python, JavaScript, PHP
+- Frameworks: Laravel
+- Databases: MySQL, PHPmyadmin
+- Tools: Git, GitHub, Docker
+
+## 📌 Featured Projects
+- 🔹 **Project 1** – Brief description
+
+## 📫 Contact
+- LinkedIn: https://www.linkedin.com/in/jonatan-gamino-bermejo-5bb3a6230/
+- Email: jonatangamino@outlook.es
