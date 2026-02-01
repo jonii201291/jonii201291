@@ -62,6 +62,9 @@ Okaidi / Kiabi · 2017 - 2022
 
 ## 🎓 Formación
 
+**Grado Superior en Desarrollo de Aplicaciones Web**  
+IES Playamar · Málaga · 2025 - 2026  
+
 **Curso de Desarrollo Web Back End**  
 Consultoría e Integración de Sistemas · Madrid · 2024  
 
