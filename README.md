@@ -11,6 +11,7 @@
   --secondary: #1e293b;
   --light: #f8fafc;
   --accent: #0ea5e9;
+  --gray: #64748b;
 }
 
 body {
@@ -18,12 +19,13 @@ body {
   font-family: 'Segoe UI', sans-serif;
   background-color: var(--light);
   color: var(--secondary);
+  line-height: 1.6;
 }
 
 /* HEADER */
 header {
   text-align: center;
-  padding: 40px 20px;
+  padding: 50px 20px;
   background: linear-gradient(135deg, var(--primary), var(--accent));
   color: white;
 }
@@ -33,74 +35,77 @@ header h1 {
   font-size: 2.5rem;
 }
 
-header p a {
+header p {
+  margin-top: 10px;
+}
+
+header a {
   color: white;
   text-decoration: none;
   font-weight: 500;
-  margin: 0 5px;
+  margin: 0 8px;
+  transition: 0.3s ease;
 }
 
-/* Pseudoclases */
-header p a:hover {
-  text-decoration: underline;
+header a:hover {
   color: #dbeafe;
+  text-decoration: underline;
 }
 
-header p a:active {
+header a:active {
   color: #93c5fd;
 }
 
+/* SECCIONES */
 section {
-  max-width: 1000px;
-  margin: 40px auto;
+  max-width: 1100px;
+  margin: 50px auto;
   padding: 0 20px;
 }
 
 h2 {
-  border-left: 5px solid var(--primary);
-  padding-left: 10px;
-  margin-bottom: 20px;
+  border-left: 6px solid var(--primary);
+  padding-left: 12px;
+  margin-bottom: 25px;
 }
 
 /* TARJETAS */
 .card {
   background: white;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 
 /* LISTAS */
 ul {
-  list-style: none;
-  padding: 0;
+  padding-left: 20px;
 }
 
 ul li {
-  padding: 8px 0;
-  border-bottom: 1px solid #e2e8f0;
+  margin-bottom: 8px;
 }
 
 ul li:nth-child(even) {
-  background-color: #f1f5f9;
+  color: var(--gray);
 }
 
 ul li:last-child {
-  border-bottom: none;
+  margin-bottom: 0;
 }
 
 /* TECNOLOGÍAS */
 .tech-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 15px;
+  gap: 12px;
 }
 
 .tech {
@@ -108,22 +113,23 @@ ul li:last-child {
   color: white;
   padding: 8px 15px;
   border-radius: 20px;
-  font-size: 0.9rem;
-  transition: background 0.3s ease;
+  font-size: 0.85rem;
+  transition: 0.3s ease;
 }
 
 .tech:hover {
   background: var(--accent);
+  transform: scale(1.05);
   cursor: pointer;
 }
 
 /* FOOTER */
 footer {
   text-align: center;
-  padding: 20px;
+  padding: 30px;
   background: var(--secondary);
   color: white;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 </style>
 </head>
@@ -132,10 +138,10 @@ footer {
 
 <header>
   <h1>👋 Hola, soy Jonatan</h1>
+  <p><strong>FullStack Junior</strong> · Málaga</p>
   <p>
-    <strong>FullStack Junior</strong> · Málaga ·
-    <a href="mailto:jonatangamino@outlook.es">Email</a> ·
-    <a href="#">LinkedIn</a>
+    <a href="mailto:jonatangamino@outlook.es">📧 Email</a> |
+    <a href="#">💼 LinkedIn</a>
   </p>
 </header>
 
@@ -144,7 +150,12 @@ footer {
   <div class="card">
     <p>
       Desarrollador Junior con experiencia en <strong>Java</strong> y especial interés en Bases de Datos.
-      9 meses en el sector IT y más de 5 años en atención al cliente.
+      Cuento con <strong>9 meses de experiencia en el sector IT</strong> y más de
+      <strong>5 años en atención al cliente</strong>, lo que me ha permitido desarrollar
+      gran capacidad de trabajo en equipo y rendimiento bajo presión.
+    </p>
+    <p>
+      Persona proactiva, con ganas de evolucionar profesionalmente y en continuo aprendizaje.
     </p>
   </div>
 </section>
@@ -157,34 +168,88 @@ footer {
     <div class="tech">JavaScript</div>
     <div class="tech">Python</div>
     <div class="tech">C</div>
+    <div class="tech">C#</div>
     <div class="tech">Kotlin</div>
+    <div class="tech">HTML</div>
+    <div class="tech">CSS</div>
+    <div class="tech">SQL</div>
   </div>
 </section>
 
 <section>
-  <h2>💼 Experiencia</h2>
+  <h2>💼 Experiencia Profesional</h2>
 
   <div class="card">
-    <h3>Desarrollador Junior - Advanced Quality Solutions</h3>
+    <h3>Reponedor - Carrefour (Junio 2024 - Actualidad)</h3>
     <ul>
-      <li>Desarrollo en Java</li>
-      <li>Uso de Docker, SQL, Jenkins</li>
-      <li>Resolución de incidencias</li>
+      <li>Atención al cliente</li>
+      <li>Perfilado y reposición de productos</li>
     </ul>
   </div>
 
   <div class="card">
-    <h3>Reponedor - Carrefour</h3>
+    <h3>Desarrollador Junior - Advanced Quality Solutions (2023 - 2024)</h3>
     <ul>
-      <li>Atención al cliente</li>
-      <li>Gestión de productos</li>
+      <li>Desarrollo de soluciones software en sector retail en Java</li>
+      <li>Colaboración en resolución de incidencias</li>
+      <li>Desarrollo de nuevas especificaciones para clientes</li>
+      <li>Uso de Docker, SQL, Postman, Jenkins y JSON</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Vendedor - Okaidi / Kiabi (2017 - 2022)</h3>
+    <ul>
+      <li>Atención al cliente y cobro en caja</li>
+      <li>Gestión de producto y uso de PDA</li>
+      <li>Manejo de programas internos</li>
+      <li>Funciones de mayor responsabilidad</li>
     </ul>
   </div>
 
 </section>
 
+<section>
+  <h2>🎓 Formación</h2>
+  <div class="card">
+    <ul>
+      <li><strong>Grado Superior DAW</strong> - IES Playamar (2025 - 2026)</li>
+      <li><strong>Curso Back-End</strong> - Consultoría e Integración de Sistemas (2024)</li>
+      <li><strong>Grado Superior DAM</strong> - IES Rosa Chacel (2021 - 2023)</li>
+    </ul>
+  </div>
+</section>
+
+<section>
+  <h2>🌍 Idiomas</h2>
+  <div class="card">
+    <p><strong>Inglés:</strong> B1</p>
+  </div>
+</section>
+
+<section>
+  <h2>🧠 Aptitudes Técnicas</h2>
+  <div class="card">
+    <p><strong>IDEs:</strong> Eclipse, Android Studio, NetBeans, VS Code, Spyder, Notepad++</p>
+    <p><strong>Bases de Datos:</strong> SQL Server, MySQL, Oracle</p>
+    <p><strong>Lenguajes:</strong> Java, Kotlin, HTML, CSS, Python, C, C#, PHP, JavaScript</p>
+  </div>
+</section>
+
+<section>
+  <h2>ℹ️ Otros datos</h2>
+  <div class="card">
+    <ul>
+      <li>🚗 Vehículo propio</li>
+      <li>📅 Incorporación inmediata (preaviso)</li>
+      <li>⏰ Disponibilidad completa</li>
+    </ul>
+  </div>
+</section>
+
 <footer>
-  <p>📫 jonatangamino@outlook.es | Disponibilidad inmediata</p>
+  <p>📧 jonatangamino@outlook.es | 💼 LinkedIn</p>
+  <p><em>Gracias por visitar mi perfil 🙌</em></p>
 </footer>
 
 </body>
