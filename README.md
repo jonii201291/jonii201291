@@ -1,3 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jonatan | FullStack Junior</title>
+
+<style>
+:root {
+  --primary: #2563eb;
+  --secondary: #1e293b;
+  --light: #f8fafc;
+  --accent: #0ea5e9;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--light);
+  color: var(--secondary);
+}
+
+/* HEADER */
+header {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, var(--primary), var(--accent));
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  margin: 0 5px;
+}
+
+/* Pseudoclases */
+header p a:hover {
+  text-decoration: underline;
+  color: #dbeafe;
+}
+
+header p a:active {
+  color: #93c5fd;
+}
+
+section {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+h2 {
+  border-left: 5px solid var(--primary);
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* TARJETAS */
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+/* LISTAS */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+ul li:nth-child(even) {
+  background-color: #f1f5f9;
+}
+
+ul li:last-child {
+  border-bottom: none;
+}
+
+/* TECNOLOGÍAS */
+.tech-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.tech {
+  background: var(--primary);
+  color: white;
+  padding: 8px 15px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s ease;
+}
+
+.tech:hover {
+  background: var(--accent);
+  cursor: pointer;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: var(--secondary);
+  color: white;
+  margin-top: 40px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>👋 Hola, soy Jonatan</h1>
+  <p>
+    <strong>FullStack Junior</strong> · Málaga ·
+    <a href="mailto:jonatangamino@outlook.es">Email</a> ·
+    <a href="#">LinkedIn</a>
+  </p>
+</header>
+
+<section>
+  <h2>🧑‍💻 Sobre mí</h2>
+  <div class="card">
+    <p>
+      Desarrollador Junior con experiencia en <strong>Java</strong> y especial interés en Bases de Datos.
+      9 meses en el sector IT y más de 5 años en atención al cliente.
+    </p>
+  </div>
+</section>
+
+<section>
+  <h2>🚀 Tecnologías</h2>
+  <div class="tech-container">
+    <div class="tech">Java</div>
+    <div class="tech">PHP</div>
+    <div class="tech">JavaScript</div>
+    <div class="tech">Python</div>
+    <div class="tech">C</div>
+    <div class="tech">Kotlin</div>
+  </div>
+</section>
+
+<section>
+  <h2>💼 Experiencia</h2>
+
+  <div class="card">
+    <h3>Desarrollador Junior - Advanced Quality Solutions</h3>
+    <ul>
+      <li>Desarrollo en Java</li>
+      <li>Uso de Docker, SQL, Jenkins</li>
+      <li>Resolución de incidencias</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h3>Reponedor - Carrefour</h3>
+    <ul>
+      <li>Atención al cliente</li>
+      <li>Gestión de productos</li>
+    </ul>
+  </div>
+
+</section>
+
+<footer>
+  <p>📫 jonatangamino@outlook.es | Disponibilidad inmediata</p>
+</footer>
+
+</body>
+</html>
+
+<!--
 <h1 align="center">👋 Hola, soy Jonatan</h1>
 
 <p align="center">
@@ -111,7 +304,7 @@ IES Rosa Chacel · Madrid · 2021 - 2023
   Breve descripción del proyecto y tecnologías usadas.
 
 ---
--->
+
 ## 📫 Contacto
 
 - 📧 Email: jonatangamino@outlook.es  
@@ -130,3 +323,4 @@ IES Rosa Chacel · Madrid · 2021 - 2023
 <p align="center">
   <em>Gracias por visitar mi perfil 🙌</em>
 </p>
+-->
